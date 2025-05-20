@@ -216,10 +216,10 @@
 
         SYMBOL {
             bindings = <
-&kp F1  &kp F2   &kp F3   &kp F4            &kp F5                                           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &kp AT_SIGN    &kp HASH
-&kp F6  &kp F7   &kp F8   &kp LEFT_SHIFT    &trans          &trans                &kp MINUS  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOLLAR       &kp PERCENT    &kp BACKSPACE
-&kp F9  &kp F10  &kp F11  &kp F12           &kp LEFT_SHIFT  &kp LCTRL             &kp SLASH  &kp SEMICOLON         &kp SINGLE_QUOTE       &kp CARET        &kp AMPERSAND  &kp ENTER
-&trans  &trans   &trans   &lt 0 INT_HENKAN  &lt 2 SPACE     &lt 4 INT_MUHENKAN               &kp GRAVE             &trans                                                                &kp NON_US_BACKSLASH
+&kp F1  &kp F2   &kp F3   &kp F4          &kp F5                                  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &kp AT_SIGN    &kp HASH
+&kp F6  &kp F7   &kp F8   &kp LEFT_SHIFT  &trans          &trans       &kp MINUS  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOLLAR       &kp PERCENT    &kp BACKSPACE
+&kp F9  &kp F10  &kp F11  &kp F12         &kp LEFT_SHIFT  &kp LCTRL    &kp SLASH  &kp SEMICOLON         &kp SINGLE_QUOTE       &kp CARET        &kp AMPERSAND  &kp ENTER
+&trans  &trans   &trans   &trans          &trans          &trans                  &kp GRAVE             &trans                                                                &kp NON_US_BACKSLASH
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
