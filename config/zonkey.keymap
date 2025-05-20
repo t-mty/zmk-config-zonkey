@@ -200,7 +200,7 @@
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_ALT  &lt 1 SPACE  &mt LEFT_SHIFT TAB               &trans  &kp CAPSLOCK                                     &kp EXCLAMATION
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
         };
 
         MOUSE {
