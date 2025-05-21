@@ -211,7 +211,7 @@
 &trans         &trans     &trans          &trans           &trans          &trans                  &trans     &trans                                                                  &kt LG(LS(S))
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         SYMBOL {
